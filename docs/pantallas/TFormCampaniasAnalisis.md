@@ -1,76 +1,54 @@
 # Análisis de campañas
 
-Esta pantalla permite consultar la actividad de una campaña en un período determinado y analizar los resultados de los contactos realizados.
+Esta pantalla permite consultar los contactos de una campaña y analizar sus resultados durante un período determinado.
 
-## Consultar
+## Cómo realizar la consulta
 
-1. Seleccione una categoría de campañas.
-2. Seleccione la campaña que desea analizar.
+1. Seleccione la categoría de campañas.
+2. Seleccione la campaña que desea consultar.
 3. Indique las fechas **Desde** y **Hasta**.
-4. Seleccione un usuario o marque **Todos** para incluir la actividad de todos los usuarios.
-5. Opcionalmente, marque **Contar sólo el resultado final** para considerar únicamente el último resultado registrado para cada propuesta dentro del período.
-6. Presione **Consultar**.
+4. Seleccione un **Usuario** o marque **Todos**.
+5. Presione **Consultar**.
 
-La consulta actualiza el detalle y los gráficos con los datos que cumplen los filtros seleccionados.
-
-## Información mostrada
-
-### Detalle
-
-En la pestaña **Detalle** se muestra una fila por contacto, con la siguiente información:
-
-- **Apellido y nombre**.
-- **Propuesta**.
-- **Resultado** del contacto.
-- **Observaciones**.
-- **Teléfono**.
-- **E-Mail**.
-- **Usuario** que realizó el contacto.
-- **Fecha** del contacto.
-
-### Gráfico Torta
-
-La pestaña **Gráfico Torta** muestra la cantidad de contactos agrupados por resultado. Las etiquetas del gráfico indican la proporción correspondiente a cada resultado.
-
-### Gráfico Barra
-
-La pestaña **Gráfico Barra** muestra la cantidad de contactos agrupados por resultado.
-
-Si seleccionó **Todos** en el filtro de usuario y marcó **Detallado en gráfico**, el gráfico muestra una serie por usuario para comparar los resultados entre ellos.
+Al abrir la pantalla, las fechas se establecen inicialmente en el primer y el último día del mes actual. Al seleccionar una campaña con fechas definidas, el rango disponible se ajusta a ese período.
 
 ## Filtros
 
-### Categoría y campaña
+- **Categoría de campañas:** limita las campañas que se pueden seleccionar.
+- **Campaña:** determina la campaña cuyos contactos se consultan.
+- **Desde** y **Hasta:** definen el período de la consulta.
+- **Usuario:** permite consultar los contactos de un usuario específico.
+- **Todos:** incluye los contactos de todos los usuarios. Al seleccionarlo, se deshabilita el campo **Usuario** y se habilita **Detallado en gráfico**.
+- **Contar sólo el resultado final:** está seleccionado inicialmente. Considera solamente el último resultado registrado para cada propuesta dentro del período consultado. Si se desmarca, se incluyen todos los contactos registrados.
+- **Detallado en gráfico:** cuando está habilitado y se seleccionó **Todos**, desglosa el gráfico de barras por usuario.
 
-Primero seleccione una categoría. Luego seleccione una campaña de esa categoría. Al elegir la campaña, las fechas quedan limitadas al período definido para ella, cuando la campaña tiene fechas de inicio y fin.
+## Resultados
 
-### Fechas
+### Detalle
 
-Debe indicar las fechas **Desde** y **Hasta**. Al abrir la pantalla, se propone el mes actual. Si la campaña tiene un período definido, no puede seleccionar fechas fuera de ese período.
+La pestaña **Detalle** muestra los contactos que cumplen los filtros seleccionados, con las columnas:
 
-### Usuario
+- **Apellido y nombre**.
+- **Propuesta**.
+- **Resultado**.
+- **Observaciones**.
+- **Teléfono**.
+- **E-Mail**.
+- **Usuario**.
+- **Fecha**.
 
-Seleccione un usuario para consultar solamente sus contactos. Marque **Todos** para incluir los contactos de todos los usuarios disponibles para la campaña.
+### Gráfico Torta
 
-Al marcar **Todos**, se habilita la opción **Detallado en gráfico**.
+La pestaña **Gráfico Torta** muestra la cantidad de contactos agrupados por **Resultado** y la proporción de cada resultado.
 
-### Resultado final
+### Gráfico Barra
 
-La opción **Contar sólo el resultado final** está seleccionada inicialmente. Cuando está marcada, la consulta cuenta y muestra únicamente el resultado más reciente de cada propuesta dentro del período consultado. Desmárquela para incluir todos los contactos registrados.
-
-## Acciones
-
-### Consultar
-
-Presione **Consultar** para ejecutar la consulta con los filtros seleccionados.
-
-### Salir
-
-Presione **Salir** para cerrar la pantalla.
+La pestaña **Gráfico Barra** muestra la cantidad de contactos agrupados por **Resultado**. Si se seleccionó **Todos** y **Detallado en gráfico**, presenta una serie por usuario.
 
 ## Consideraciones
 
 - Debe seleccionar un usuario o marcar **Todos**.
-- Debe indicar las fechas **Desde** y **Hasta**.
-- Al cambiar la categoría, campaña, usuario, fechas u opciones de resultado, se limpian los datos mostrados hasta ejecutar nuevamente la consulta.
-- Si la consulta no devuelve contactos, no se muestran datos en el detalle ni en los gráficos.
+- Debe completar las fechas **Desde** y **Hasta**.
+- Si la consulta no encuentra contactos, el detalle y los gráficos quedan sin datos.
+- Al cambiar la categoría, la campaña, el usuario, las fechas o las opciones de resultado, se limpian los resultados actuales. Presione **Consultar** para generarlos nuevamente.
+- Presione **Salir** para cerrar la pantalla.

@@ -2,24 +2,20 @@
 
 {{descripcion}}
 
-## Consultar
+## Cómo realizar la consulta
 
-{{procedimiento_principal}}
-
-## Información mostrada
-
-{{columnas_o_resultados}}
+{{pasos}}
 
 ## Filtros
 
-{{filtros}}
+{{filtros_relevantes}}
 
-## Acciones
+## Resultados
 
-{{acciones_relevantes}}
+{{detalle_grillas_graficos}}
 
 ## Consideraciones
 
-{{reglas_y_validaciones}}
+{{validaciones_y_comportamientos_importantes}}
 
 > Las secciones son orientativas. Omitir las que no aporten información útil.

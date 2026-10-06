@@ -60,3 +60,22 @@ La ayuda está dirigida al usuario final.
 - Priorizar instrucciones como **Seleccione**, **Ingrese** y **Presione**.
 - Explicar qué hace la pantalla y cómo utilizarla.
 - Evitar explicar cómo está programada.
+
+## Prioridad de evidencia
+
+Para describir textos visibles al usuario, usar esta prioridad:
+
+1. Caption, Label, encabezados y textos definidos en el DFM.
+2. Mensajes y comportamiento definidos en el PAS.
+3. SQL y datasets solamente para comprender la lógica funcional.
+
+No exponer nombres internos de campos si existe una etiqueta visible equivalente.
+
+## Interpretación de consultas
+
+Cuando el comportamiento se deduzca de SQL complejo:
+
+- describir el resultado en términos funcionales;
+- no explicar la consulta técnica;
+- evitar afirmar más de lo que el código permite demostrar;
+- si existe ambigüedad, usar una redacción conservadora.
