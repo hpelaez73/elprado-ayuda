@@ -1,1 +1,10 @@
-site_name: My Docs
+site_name: Ayuda de El Prado
+
+theme:
+  name: material
+  language: es
+
+nav:
+  - Inicio: index.md
+  - Pantallas:
+      - Consulta de notificaciones: pantallas/TFormConsultaNotificaciones.md
